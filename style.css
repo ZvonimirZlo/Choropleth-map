@@ -1,0 +1,42 @@
+body, html{
+    min-height: 100%;
+    background-color: burlywood;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: none;
+    
+}
+svg{
+    background-color:rgb(219, 180, 130);
+}
+#canvas{
+    min-height: 700px;
+    min-width: 950px;
+}
+#legend{
+    font-size: 18px;
+    text-align: left;
+    min-height: 50px;
+    max-width: 180px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+#tooltip{
+    visibility: hidden;
+    height: auto;
+    width: auto;
+    margin-top: 2px;
+    color: #2e2721;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.county:hover{
+    fill:rgb(2, 1, 12);
+}
+
+
