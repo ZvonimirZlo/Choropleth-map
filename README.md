@@ -1,2 +1,2 @@
-# Choropleth-map
-FreeCodeCamp project
+Data visualisation with D3 library.
+
